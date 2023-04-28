@@ -15,7 +15,12 @@ PRODUCT_PACKAGES += \
     OnePlus7TFrameworks \
     OnePlus7TSettings \
     OnePlus7TSettingsProvider \
-    OnePlus7TSystemUI
+    OnePlus7TSystemUI \
+    ApertureOverlay
+    
+PRODUCT_SYSTEM_EXT_PROPERTIES += \
+    persist.vendor.camera.privapp.list=org.codeaurora.snapcam,org.lineageos.aperture \
+    vendor.camera.aux.packagelist=org.codeaurora.snapcam,org.lineageos.aperture
 
 # Audio
 PRODUCT_COPY_FILES += \
