@@ -15,7 +15,7 @@ from extract_utils.main import ExtractUtils, ExtractUtilsModule
 namespace_imports = [
     'vendor/oneplus/sm8150-common',
     'device/oneplus/sm8150-common',
-    'vendor/qcom/common/vendor/media-legacy',
+    'vendor/qcom/common/vendor/media/legacy',
 ]
 
 lib_fixups: lib_fixups_user_type = {
